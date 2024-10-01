@@ -99,3 +99,16 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+#offline-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+  }
+  
