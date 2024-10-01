@@ -16,6 +16,13 @@
     --color6: #BCD587;
 }
 
+@media (max-width: 768px) {
+    section#img2 {
+        background: url(../imagens/prarir.jpeg) center center / contain fixed;
+        min-height: 50vh; /* Ajusta a altura para algo menor no celular */
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -24,7 +31,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color:;
+    background-color:none;
     font-family: var(--font1);
 }
 
@@ -90,7 +97,7 @@ section#img1 {
 }
 
 section#img2 {
-    background: url(../imagens/prarir.jpeg) right center / cover fixed;
+    background: url(../imagens/prarir.jpeg) right center / contain fixed;
 }
 
 footer {
