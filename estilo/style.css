@@ -8,6 +8,12 @@
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', sans-serif;
     --font3: 'Sriracha', cursive;
+    --color1: #F0002B;
+    --color2: #703842;
+    --color3: #00AAF0;
+    --color4: #386070;
+    --color5: #3E550B;
+    --color6: #BCD587;
 }
 
 * {
@@ -18,12 +24,12 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color:;
     font-family: var(--font1);
 }
 
 header {
-    background-color: black;
+    background-color: var(--color5);
     color: white;
     text-align: center;
 }
@@ -80,11 +86,11 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 section#img1 {
-    background: url(../imagens/background001.jpg) right center / cover fixed;
+    background: url(../imagens/prarir.jpeg) right center / cover ;
 }
 
 section#img2 {
-    background: url(../imagens/background002.jpg) right center / cover fixed;
+    background: url(../imagens/prarir.jpeg) right center / cover fixed;
 }
 
 footer {
