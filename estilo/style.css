@@ -97,7 +97,7 @@ section#img1 {
 }
 
 section#img2 {
-    background: url(../imagens/prarir.jpeg) right center / contain fixed;
+    background: url(../imagens/prarir.jpeg) right center / cover;
 }
 
 footer {
