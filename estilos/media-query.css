@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    section#img1,
+    section#img2 {
+        background: url(../imagens/prarir.jpeg) center center / cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Remover 'fixed' para evitar problemas */
+        min-height: 20vh; /* Ajuste conforme necessário */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#img1,
+    section#img2 {
+        background: url(../imagens/prarir.jpeg) center center / cover fixed;
+        background-repeat: no-repeat;
+        min-height: 20vh; /* Ajuste conforme necessário */
+    }
+}
+

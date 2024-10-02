@@ -12,15 +12,8 @@
     --color2: #703842;
     --color3: #00AAF0;
     --color4: #386070;
-    --color5: #3E550B;
-    --color6: #BCD587;
-}
-
-@media (max-width: 768px) {
-    section#img2 {
-        background: url(../imagens/prarir.jpeg) center center / contain fixed;
-        min-height: 50vh; /* Ajusta a altura para algo menor no celular */
-    }
+    --color5: #89c802;
+    --color6: #5a7c0e;
 }
 
 * {
@@ -92,13 +85,11 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.255);
     text-shadow: 1px 1px 0px black;
 }
-section#img1 {
-    background: url(../imagens/prarir.jpeg) right center / cover ;
+
+section#img1, section#img2 {
+    background: url(../imagens/prarir.jpeg) right center / cover fixed;
 }
 
-section#img2 {
-    background: url(../imagens/prarir.jpeg) right center / cover;
-}
 
 footer {
     background-color: black;
