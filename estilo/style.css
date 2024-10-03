@@ -82,6 +82,12 @@ section > h3 {
     text-indent: 8px;
     font-weight: normal;
 }
+section > h4 {
+    color: white;
+    background-image: linear-gradient(to right, var(--color4), transparent);
+    text-indent: 8px;
+    font-weight: normal;
+}
 
 section > p {
     padding-top: 1em;
