@@ -60,9 +60,8 @@ footer a:hover {
 }
 
 section {
-    padding: 0; /* Remover padding das seções */
+    padding-left: 10px;
     padding-top: 30px;
-    margin: 0; /* Remover margens das seções */
     line-height: 2em;
     font-family: var(--font3);
     font-size: 3.5vw;
@@ -102,7 +101,7 @@ section.normal {
 }
 
 section > ul {
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 section.imagem {
