@@ -105,13 +105,13 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.158);
 }
 section#img1 {
-    background: url(../imagens/mapa.png) center center / cover no-repeat;
+    background: url(../imagens/mapa.jpg) center center / cover no-repeat;
     min-height: 345px;
     min-width: 90%
 }
 
 section#img2 {
-    background: url(../imagens/melhorias.png) center center / cover fixed no-repeat;
+    background: url(../imagens/melhorias.jpg) center center / cover fixed no-repeat;
     min-height: 345px;
     min-width: 9%;
 
