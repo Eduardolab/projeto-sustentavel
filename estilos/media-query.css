@@ -1,19 +1,24 @@
+/* Estilo para telas pequenas (celulares) */
 @media screen and (max-width: 768px) {
-    section#img1,
+    section#img1 {
+        background: url(../imagens/mapa.png) center center / cover no-repeat;
+        width: 100vh;
+    }
+
     section#img2 {
-        background: url(../imagens/prarir.jpeg) center center / cover;
-        background-repeat: no-repeat;
-        background-attachment: scroll; /* Remover 'fixed' para evitar problemas */
-        min-height: 20vh; /* Ajuste conforme necessário */
+        background: url(../imagens/melhorias.png) center center / cover fixed; /* Contain para evitar cortes */
+        background-image: contain;
+        width: 100vw; /* Garantir que não ultrapasse a tela */
+        height: 20vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Para garantir que o body não crie espaço extra */
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Desabilitar qualquer rolagem horizontal */
     }
 }
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    section#img1,
-    section#img2 {
-        background: url(../imagens/prarir.jpeg) center center / cover fixed;
-        background-repeat: no-repeat;
-        min-height: 20vh; /* Ajuste conforme necessário */
-    }
-}
-
