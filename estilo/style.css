@@ -113,11 +113,15 @@ section.imagem {
 section#img1 {
     background: url(../imagens/mapa.jpg) center center / contain no-repeat;
     height: auto;
+    max-width: 768px;
+    min-width: 600;
 }
 
 section#img2 {
-    background: url(../imagens/melhorias.jpg) center center / contain fixed no-repeat;
+    background: url(../imagens/melhorias.jpg) center center / cover fixed no-repeat;
     height: 20vh;
+    max-width: 768px;
+    min-width: 600;
 }
 
 footer {
