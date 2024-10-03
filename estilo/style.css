@@ -114,14 +114,14 @@ section#img1 {
     background: url(../imagens/mapa.jpg) center center / cover no-repeat;
     height: auto;
     min-height: 350px;
-    min-width: 89vw;
+    min-width: 100vw;
 
 }
 
 section#img2 {
     background: url(../imagens/melhorias.jpg) center center / cover no-repeat;
     min-height: 350px;
-    min-width: 89vw;
+    min-width: 100vw;
 }
 
 footer {
