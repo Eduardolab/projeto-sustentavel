@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', sans-serif;
@@ -17,9 +13,10 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
 }
 
 html,
@@ -28,110 +25,18 @@ body {
     background-color: none;
     font-family: var(--font1);
     user-select: none;
-}
-
-header {
-    background-color: var(--color5);
-    color: white;
-    text-align: center;
-}
-
-header>h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
-    font-family: var(--font2);
-    font-size: 10vw;
-}
-
-header>p {
-    padding-bottom: 50px;
-}
-
-header a,
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-header a:hover,
-footer a:hover {
-    text-decoration: underline;
+    overflow-x: hidden; /* Ocultar a rolagem horizontal */
 }
 
 section {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 5px;
-    line-height: 2em;
-    padding-left: 30px;
-    font-family: var(--font3);
-    font-size: 3.5vw;
+    padding: 0; /* Remover padding das seções */
+    margin: 0; /* Remover margens das seções */
 }
 
-section > h2 {
-    color: white;
-    background-image: linear-gradient(to right, var(--color6), transparent);
-    text-indent: 8px;
-    font-weight: normal;
+section#img1, section#img2 {
+    background: url(../imagens/melhorias.jpg) center center / contain no-repeat;
+    height: 350px; /* Defina uma altura fixa */
+    width: 100%; /* Ocupa toda a largura */
 }
 
-section > h3 {
-    color: white;
-    background-image: linear-gradient(to right, var(--color3), transparent);
-    text-indent: 8px;
-    font-weight: normal;
-}
-section > h4 {
-    color: white;
-    background-image: linear-gradient(to right, var(--color4), transparent);
-    text-indent: 8px;
-    font-weight: normal;
-}
-
-section > p {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-indent: 20px;
-}
-
-section.normal {
-    background-color: white;
-    color: black;
-    padding-bottom: 30px;
-}
-
-section > ul {
-    padding-left: 5%;
-}
-
-section.imagem {
-    background-color: rgb(90, 90, 90);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.041);
-    padding: 0;
-}
-section#img1 {
-    background: url(../imagens/mapa.jpg) center top / contain no-repeat;
-    height: 350px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-
-}
-
-section#img2 {
-    background: url(../imagens/melhorias.jpg) center top / contain no-repeat;
-    height: 350px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: small;
-}
+/* Outros estilos aqui... */
