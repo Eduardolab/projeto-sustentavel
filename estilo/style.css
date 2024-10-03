@@ -111,17 +111,18 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.041);
 }
 section#img1 {
-    background: url(../imagens/mapa.jpg) center center / cover no-repeat;
-    height: auto;
+    background: url(../imagens/mapa.jpg) center center / contain no-repeat;
     min-height: 350px;
     min-width: 200px;
+    overflow: hidden;
 
 }
 
 section#img2 {
-    background: url(../imagens/melhorias.jpg) center center / cover no-repeat;
+    background: url(../imagens/melhorias.jpg) center center / contain no-repeat;
     min-height: 350px;
     min-width: 200px;
+    overflow: hidden;
 }
 
 footer {
