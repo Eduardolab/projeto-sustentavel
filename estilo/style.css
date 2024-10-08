@@ -122,16 +122,18 @@ section#img2 {
     background: url(../imagens/melhorias.jpg) center center / contain no-repeat; /* Ajustar a imagem de fundo */
 }
 
-section:nth-child(7) {
-    padding-left: 0px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
-
 section:nth-child(6) > ul {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+section:nth-child(7) {
+    box-shadow: none;
+    background-color: white;
+    padding: 0px;
+    padding-top: 20px;
+}
+
 
 footer {
     background-color: rgb(41, 40, 40);
